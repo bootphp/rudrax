@@ -1,0 +1,19 @@
+{
+  "name": "bootphp/rudrax",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Lalit Tanwar",
+      "email": "lalit.tanwar07@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "bootphp\\rudrax\\": ""
+    }
+  },
+  "require": {
+    "bootphp/loader": "dev-master",
+    "rudrax/boot": "dev-master"
+  }
+}
