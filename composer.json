@@ -15,6 +15,6 @@
   "require": {
     "bootphp/loader": ">=0.0.0",
     "bootphp/functions": ">=0.0.0",
-    "rudrax/boot": ">=0.0.0"
+    "rudrax/boot": ">=0.0.17"
   }
 }
