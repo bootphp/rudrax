@@ -17,15 +17,6 @@ namespace bootphp\rudrax {
 
         public function invoke($dir)
         {
-            if (static::$DISPLAY_ERROR) {
-                error_reporting(E_ALL & ~E_DEPRECATED);
-                \bootphp\fn::println("DISPLAYING ERROR");
-            } else {
-                ini_set('display_errors', 0);
-                ini_set('error_reporting', 0);
-                error_reporting(0);
-            }
-
             require_once("lib/rudrax/boot/RudraX.php");
             try {
                 \RudraX::invoke(array(
